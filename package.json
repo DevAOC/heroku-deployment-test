@@ -9,7 +9,8 @@
     "dev": "shopify app dev --no-update",
     "info": "shopify app info",
     "scaffold": "shopify app scaffold",
-    "deploy": "shopify app deploy"
+    "deploy": "shopify app deploy",
+    "start": "cd web/frontend && npx http-server ./dist"
   },
   "dependencies": {
     "@shopify/app": "3.23.0",
